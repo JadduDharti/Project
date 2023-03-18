@@ -27,12 +27,46 @@ div{
         border-radius: 25px;
         
       }
-      .imput{
+      .user{
         position: relative;
     
       }
-      .imput i{
+      .user i{
+        position:absolute;
+        top:50%;
+        left:10px;
+      }.mail{
+        position: relative;
+    
+      }
+      .mail i{
         position:absolute;
         top:50%;
         left:10px;
       }
+      .lock{
+        position: relative;
+    
+      }
+      .lock i{
+        position:absolute;
+        top:50%;
+        left:10px;
+      }
+       #A{
+        padding: 20px;
+       }
+       #B{
+        padding: 20px;
+       } 
+       #C{
+        padding: 20px;
+       }
+       #D{
+        padding: 20px;
+       }
+       #Z{
+        display:flex;
+        justify-content: center;
+       }
+
