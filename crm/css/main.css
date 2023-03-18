@@ -26,6 +26,8 @@ p {
     flex-direction: column;
     align-items: start;
     align-content: center;
+    clip-path: ellipse(645px 450% at 20% -10%);
+    padding-right: 10vw;
 }
 .logo {
    width: 30vw;
@@ -38,6 +40,8 @@ p {
     display: flex;
     justify-content: center;
     padding-bottom: 20vh;
-    /* I tried playing around with this: border-bottom-right-radius: 30% 80%; */
-    border-radius: 0% 0% 90% 0%;   /* <---- and also that.  It's the closest I could get with the rounded background. */
+
+    /* now I just need to play around with these numbers to try and connect 
+    the background of the first row with the background of the second row */
+    clip-path: ellipse(750px 150% at 0.2% 15%);
 }
