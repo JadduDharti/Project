@@ -53,20 +53,62 @@ div{
         top:50%;
         left:10px;
       }
-       #A{
+      #Efacebook{
         padding: 20px;
+        height: 25px; 
+        width: 25px;
+        background-color: #bbb;
+        border-radius: 50%;
+         display: inline-block;
+         margin: auto; 
+        
+        
+        
        }
-       #B{
+      
+       #Atuit{
         padding: 20px;
+        height: 25px; 
+        width: 25px;
+        background-color: #bbb;
+        border-radius: 50%;
+         display: inline-block;
+         margin: auto; 
+        
+        
+        
+       }
+       #Bgoogle{
+        padding: 20px;
+        height: 25px;
+        width: 25px;
+        background-color: #bbb;
+        border-radius: 50%;
+  
+         
        } 
-       #C{
+       #Clinkedin{
         padding: 20px;
+        height: 25px; 
+        width: 25px;
+        background-color:#bbb;
+        border-radius: 50%;
+         display: inline-block;
+         margin: auto; 
        }
-       #D{
+       #Dinsta{
         padding: 20px;
+        height: 25px; 
+        width: 25px;
+        background-color: #bbb;
+        border-radius: 50%;
+         display: inline-block;
+         margin: auto; 
+      
        }
        #Z{
         display:flex;
         justify-content: center;
        }
+       
 

@@ -1,0 +1,263 @@
+#btn__override {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+
+}
+
+#nav__bg-color {
+    background-color: white;
+}
+
+.navbar-dark .navbar-brand {
+    color: blue;
+    width: 10%;
+    height: 5%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+}
+
+.btn-form form {
+    padding: 0.5%;
+    float: right;
+    margin-right: 10px;
+    margin-left: auto;
+
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: blue
+}
+
+
+
+
+footer {
+    display: flex;
+    background-color: blue;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 3%;
+    margin-top: 10%;
+}
+
+.btn-start {
+    background-color: green;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 35px;
+    width: 13%;
+    margin-right: 6%;
+    padding: 8px;
+    justify-content: center;
+
+}
+
+.btn-chat {
+    background-color: #fff;
+    text-align: center;
+    color: blue;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 35px;
+    width: 13%;
+    margin-top: 5%;
+    padding: 8px;
+    justify-content: center;
+}
+
+.btn-content-signup {
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 35px;
+    width: auto;
+    margin-top: 5%;
+    padding: 8px;
+    justify-content: center;
+
+}
+
+.btn-content-chat {
+    background-color: #fff;
+    text-align: center;
+    color: blue;
+    font-size: 14px;
+    border-radius: 8px;
+    height: 35px;
+    width: auto;
+    margin-top: 5%;
+    border: 2px solid blue;
+    padding: 8px;
+    justify-content: center;
+}
+
+.content-h1 {
+    font-family: Arial Rounded MT Bold;
+    margin-top: 5%;
+    font-size: 3em;
+}
+.shape1{
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: blue;
+    background-color: blue;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 5px solid blue;
+    box-shadow: 10px 10px lightgray;
+    margin: 15%;
+    margin-top: 20%;
+}
+.p-shape1{
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 12%;
+}
+.shape2{
+   border-top-left-radius: 50px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: 5px solid whitesmoke;
+    box-shadow: 10px 10px lightgray;
+    margin: 30%;
+}
+.p-shape2{
+    text-align: center;
+    color: black;
+    font-size: 0.8em;
+    padding: 12%;
+}
+.shape3{
+    border-radius: 50px;
+    color: blue;
+    background-color: blue;
+    display: inline-block;
+    width: 130%;
+    height: 100%;
+    border: 5px solid blue;
+    box-shadow: 10px 10px lightgray;
+    margin-left: 50%;
+}
+.p-shape3{
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 12%;
+}
+.shape4{
+    border-radius: 80px;
+    color: blue;
+    background-color: blue;
+    display: inline-block;
+    width: 120%;
+    height: 150%;
+    border: 20px solid blue;
+    box-shadow: 10px 10px lightgray;
+    margin-right: 15%;
+    margin-top: auto;
+}
+.p-shape4{
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 12%;
+}
+.shape6{
+    border-top-right-radius: 50px;
+     color: whitesmoke;
+     background-color: whitesmoke;
+     display: inline-block;
+     width: 100%;
+     height: 100%;
+     border: 5px solid whitesmoke;
+     box-shadow: 10px 10px lightgray;
+     margin: 30%;
+ }
+ .p-shape6{
+     text-align: center;
+     color: black;
+     font-size: 0.8em;
+     padding: 12%;
+ }
+ .shape7{
+    border-bottom-right-radius: 50px;
+    color: blue;
+    background-color: blue;
+    display: inline-block;
+    width: 120%;
+    height: 100%;
+    border: 5px solid blue;
+    box-shadow: 10px 10px lightgray;
+    margin-left: 70%;
+}
+.p-shape7{
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 12%;
+}
+.shape8{
+    border-bottom-left-radius: 50px;
+    color: blue;
+    background-color: blue;
+    display: inline-block;
+    width: 120%;
+    height: 100%;
+    border: 5px solid blue;
+    box-shadow: 10px 10px lightgray;
+    margin-left: 5%;
+}
+.p-shape8{
+    text-align: center;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 12%;
+}
+.shape9{
+    border-radius: 80px;
+    color: whitesmoke;
+    background-color: whitesmoke;
+    display: inline-block;
+    width: 110%;
+    height: 130%;
+    border: 15px solid whitesmoke;
+    box-shadow: 10px 10px lightgray;
+    margin-left: 30%;
+    margin-top: auto;
+}
+.p-shape9{
+    text-align: center;
+    color: black;
+    font-size: 0.8em;
+    padding: 12%;
+}
+.tbl-shape{
+    border: 0px;
+    margin: auto;
+    align-items: center;
+}
+.main-seprate{
+    width: 60%;
+    margin: 20%;
+    padding: auto;
+    margin-top: 10%;
+    border: 1px solid black;
+    align-items: center;
+    color: black;
+    
+
+}
