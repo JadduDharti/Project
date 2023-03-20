@@ -15,6 +15,8 @@
 
 <body>
     <div class="container-fluid">
+
+        <!-- left background image / blue background starts here -->
         <div class="row">
             <div class="col left" style="background-color: blue;">
                 <div class="content">
@@ -23,13 +25,15 @@
                         <p>What are you waiting for? Let's Fix that now!</p>
                     </div>
                     <div class="button">
-                    <button class="signup">Sign Up</button>
+                    <button class="signup" type="submit" onclick="window.location.href='signup.html';">Sign Up</button>
                     </div>
                 </div>
                 <div class="logo">
                     <img class="satellite" src="images/satellite.png" alt="satellite">
                 </div>
             </div>
+            <!-- blue background ends here -->
+            <!-- sign-in form starts here -->
             <div class="col right" style="background-color:white;">
                 <div class="SignIn">
                     <form>
@@ -39,7 +43,7 @@
                             <input class="field" type="text" id="mail" name="mail" value=""><br><br>
                             <input class="field" type="text" id="lock" name="lock" value=""><br><br>
                         </div>
-                        <button>Sign In </button>
+                        <button class="signup" type="submit" onclick="window.location.href='landing.html';">Sign In</button>
                         <label for="other">Or sign in with social platforms</label><br>
                         <img src="images/Path 151.png">
                         <img src="images/Path 152.png">

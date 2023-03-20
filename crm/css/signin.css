@@ -20,9 +20,12 @@ p {
 }
 
 .SignIn {
-   
-
+   display: flex;
+   align-items: start;
+   padding-left: 4vw;
+   padding-top: 4vh;;
 }
+
 .text{
     display: flex;
     flex-direction: column;
@@ -43,12 +46,13 @@ p {
     flex-direction: column;
     align-items: start;
     align-content: center;
+    width: 60vw;
     padding-top: 6vh;
     padding-left: 3vw;
     padding-right: 10vw;
     justify-content: center;
     padding-bottom: 20vh;
-    clip-path: ellipse(800px 96.5% at 0.2% 1%);
+    clip-path: ellipse(810px 96.5% at 0.2% 1%);
 
     /* now I just need to play around with these numbers - clip-path: ellipse(800px 96.5% at 0.2% 1%); */
     /*clip-path: ellipse(800px 100% at 1% 0.1%);*/
@@ -63,3 +67,10 @@ p {
     padding-top: 2vh;
 }
 
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+  
+}
