@@ -1,18 +1,19 @@
 col {
   padding-top: 5vh;
 }
+.right{
+max-height: fit-content;
+}
+.SignUp {
 
-.SignUp{
-    
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: start;
-    padding-top: 6vh;
-    
-    
-    height:60vw;
-    width: 30vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  padding-top: 6vh;
+  height: 55vw;
+  width: 30vw;
+  margin: 0.5%;
 
 }
 
@@ -24,63 +25,62 @@ h2 {
   margin-bottom: 2vh;
 
 }
-    input[type=text] {
-        width: 100%;
-        padding: 12px 20px;
-        margin: none ;
-        box-sizing: border-box;
-        border-radius: 25px;
-        
-      }
-      button {
-        background-color: blue;
-        color: white;
-        width: 90%;
-        padding: 12px;
-        display:flex;
-        flex-direction: row;
-        justify-content:center;
-        align-items: center;
-        
-        margin: auto ;
-   
-        border-radius: 25px;
-        
-      }
-      .input{
-        position: relative;
-      
-        
-    
-      }
-     .field {
-      margin-bottom: 4vh;
-     }
 
-     label {
-      padding: 3vh;
-     }
-      .desklogo {
-        width: 55vw;
-        height: auto;
-        padding-top: 10vh;
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: none;
+  box-sizing: border-box;
+  border-radius: 25px;
+
+}
+
+button {
+  background-color: blue;
+  color: white;
+  width: 90%;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+
+  border-radius: 25px;
+
+}
+
+.imput {
+  position: relative;
+
+}
+
+.imput i {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
 
 
-      }
+#Z {
+  display: flex;
+  justify-content: center;
+}
 
-      .row {
-        display: flex;
-        flex-direction: row;
-       
-      }
+button {
+  color: white;
+}
 
-      .left {
-        display: flex;
-        flex-direction: column;
-        align-content: start;
-        justify-items: start;
-      }
-      .container-fluid {
-        display: flex;
 
-      }
+.left {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+  justify-items: start;
+}
+
+.container-fluid {
+  display: flex;
+ align-items: center;
+}
