@@ -251,15 +251,15 @@ footer {
   align-items: center;
 }
 .main-seprate{
-  width: 60%;
-  margin: 20%;
+  display: flex;
+  width: 65%;
   padding: auto;
   margin-top: 10%;
   border: 1px solid black;
   align-items: center;
   color: black;
-  
-
+ 
+  margin-left: 15vw;
 }
 
 
